@@ -1,0 +1,19 @@
+appId: com.hongs4447.easyreader
+productName: File Reader
+directories:
+  output: dist
+files:
+  - index.html
+  - styles.css
+  - read.js
+  - main.js
+  - package.json
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+    - zip
+linux:
+  target:
+    - AppImage
+    - deb
